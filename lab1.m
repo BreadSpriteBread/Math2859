@@ -26,5 +26,5 @@ histogram(Inflow, edges, "Normalization","pdf")
 
 AgeUS = Age(strcmp(Country, "US"));
 plot(AgeUS)
-boxplotI(AgeUS)
+boxplot(AgeUS)
 boxplot(AgeUS, Country, "Orientation","vertical")
